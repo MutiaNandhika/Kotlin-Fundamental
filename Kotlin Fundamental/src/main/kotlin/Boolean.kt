@@ -1,14 +1,14 @@
 fun main() {
 
-    val nilai : Int = 20
+    var nilai : Int = 90
     val tuntas = nilai >= 75
     if (!tuntas)
     {
-        println("Nilai kamu $nilai, Selamat ya!")
+        println("Nilai kamu $nilai, Silahkan ikut remidial.")
     }
     else
     {
-        println("Nilai kamu $nilai, Silahkan ikut remidial.")
+        println("Nilai kamu $nilai, Selamat ya!")
     }
 
     val a = 90
@@ -24,7 +24,7 @@ fun main() {
     }
     else if (nilai > b) {
 
-        println(" Nilai kamu B")
+        println("Nilai kamu B")
     }
     else if (nilai > c){
 
